@@ -1,0 +1,17 @@
+.year{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.day{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.pd-40{
+  padding: 40px !important;
+}
+.curentdate{
+  color: blue;
+}

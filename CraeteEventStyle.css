@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+form .input-field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+
+.input-field input {
+    height: 92%;
+    width: 96%;
+    background: none;
+    outline: none;
+    font-size: 1.0rem;
+    padding: 6px;
+    border: 1px solid #717171;
+    border-radius: 4px;
+    background-color: rgb(245, 243, 249);
+}
+.input-field input:focus {
+    border: 2px solid #020101;
+    
+}
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #131111;
+    pointer-events: none;
+    transition: 0.2s ease;
+}
+.input-field input:is(:focus, :valid) {
+    padding: 16px 15px 0;
+    
+}
+.timefont{
+    color: #d40000;
+    font-size: 0.75rem;
+} 
+.input-field input:is(:focus, :valid)~label {
+    transform: translateY(-120%);
+    color: #d40000;
+    font-size: 0.75rem;
+    
+}
+.hide-show{
+    display: none;
+}
+#tag{
+    width: 25px;
+    width: 59px;
+    height: 22px;
+    margin-bottom: -64px;
+    margin-left: -28px;
+    color: #000000;
+}
+#tag1{
+    width: 19px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: -134px;
+    margin-left: -44px;
+    color: #000000;
+} 
+#tag2{
+    margin-top: 5px;
+    width: 20px;
+    height: 23px;
+    margin-left: -22px;
+    margin-bottom: -202px;
+    color: #000000
+    
+}
+#tag3{
+    width: 38px;
+    height: 22px;
+    margin-top: -35px;
+    margin-bottom: -270px;
+    margin-left: -37px;
+    color: #000000
+}
+#tag4{
+    width: 43px;
+    height: 22px;
+    margin-top: -35px;
+    margin-bottom: -340px;
+    margin-left: -46px;
+    color: #000000
+}
+#tag5{
+    width: 51px;
+    height: 22px;
+    margin-top: -35px;
+    margin-bottom: -414px;
+    margin-left: -46px;
+    color: #000000
+}
+#tag6{
+    width: 41px;
+    height: 22px;
+    margin-top: -35px;
+    margin-bottom: -483px;
+    margin-left: -46px;
+    color: #000000
+}
+.container{
+    margin-right: auto;
+     margin-left: 10px;
+}
+.modal-body{
+  margin-top: -36px;
+  /* background-color: #8cb1ec; */
+  background:linear-gradient(to bottom, #46c1d7 23%, #a038c9 95%);
+  height: 541px;
+  width: px;
+  border-radius: 6px;
+}
+.modal-footer{
+  justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #e9ecef;
+  height: 57px;
+}
+
+#add{
+    margin-right: 11.5rem;
+    background-color: #090b87;
+}
+#delete{
+    background-color: #802704;
+}
